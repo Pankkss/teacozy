@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    height: 100%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 69px;
+    display: flex;
+    z-index: 1;
+    background-color: black;
+    border: solid 1px seashell;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.nav {
+    text-align: right;
+    width: 100%;
+}
+.logo img {
+    height: 50px;
+}
+
+.header a {
+    text-decoration: underline;
+    display: inline-flex;
+    text-align: right;
+    color: inherit;
+    padding-right: 10px;
+}
+
+.mainImg {
+    background-image: url(/resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 69px auto 0px auto;
+}
+
+.mainImg div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+
+.TOTM {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.TOTM img {
+    width: 300px;
+    height: 200px;
+}
+
+.teaRowOne {
+    display: inline-flex;
+}
+
+.teaRowTwo {
+    display: inline-flex;
+}
+
+.blurry {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.blurry .locations {
+    display: inline-flex;
+    margin-top: 15px;
+
+    
+}
+
+.place {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+#downtown {
+    margin: 0px 40px;
+}
